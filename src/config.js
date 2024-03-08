@@ -15,7 +15,7 @@ export const CART_FALLBACK_IMG =
 //export const GET_RESTAURANT_MENU = "https://www.swiggy.com/dapi/menu/v4/full?lat=11.9343684&lng=79.8255499&menuId=";
 
 /* BANGALORE LOCATION URL */
-export const GET_RESTAURANTS_LIST = "https://instafood.onrender.com/api/restaurants?lat=12.9351929&lng=77.62448069999999";
+export const GET_RESTAURANTS_LIST = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6759848&lng=77.1122003&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
 export const GET_RESTAURANT_MENU = "https://instafood.onrender.com/api/menu?lat=12.9351929&lng=77.62448069999999&restaurantId=";
 
 /* Shimmer - Number of cards & items to be displayed */

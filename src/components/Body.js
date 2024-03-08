@@ -31,14 +31,14 @@ const Body = () => {
       /* Mock Data */ 
       //const res_data = restaurantList;
 
-      setAllRestaurants(res_data?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-      setFilteredRestaurants(res_data?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      setAllRestaurants(res_data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      setFilteredRestaurants(res_data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     } catch (error) {
       console.log(error);
     }
     
   };
-
+  console.log(allRestaurants);
   const searchData = (searchText, restaurants ) => ()=> {  
     if(searchText !== '') {
       const data = filterData(searchText,restaurants);
